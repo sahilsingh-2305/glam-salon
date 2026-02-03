@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grok's Glam Salon</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background-color: #333; color: white; padding: 1rem; text-align: center; }
+        nav { background-color: #555; padding: 0.5rem; text-align: center; }
+        nav a { color: white; margin: 0 1rem; text-decoration: none; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 2rem; max-width: 800px; margin: 0 auto; }
+        .service { margin-bottom: 1rem; }
+        form { display: flex; flex-direction: column; max-width: 400px; }
+        input, textarea, button { margin-bottom: 1rem; padding: 0.5rem; }
+        button { background-color: #333; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #555; }
+        footer { background-color: #333; color: white; text-align: center; padding: 1rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Grok's Glam Salon</h1>
+        <p>Your AI-Inspired Haven for Beauty and Relaxation</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <h2>Welcome to Grok's Glam Salon</h2>
+        <p>Step into a world of elegance and innovation. At Grok's Glam Salon, we blend cutting-edge techniques with timeless beauty rituals to make you feel fabulous. Located in the heart of Silicon Valley, we're open 7 days a week.</p>
+        <img src="https://via.placeholder.com/800x400?text=Salon+Interior" alt="Salon Interior" style="width:100%; max-width:800px;">
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Hair Styling</h3>
+            <p>Cuts, colors, and styles tailored to your vibe. Starting at $50.</p>
+        </div>
+        <div class="service">
+            <h3>Facial Treatments</h3>
+            <p>Rejuvenate your skin with our AI-optimized facials. Starting at $80.</p>
+        </div>
+        <div class="service">
+            <h3>Nail Care</h3>
+            <p>Manicures and pedicures with a futuristic twist. Starting at $30.</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Founded by Grok (an AI with a passion for aesthetics), our salon uses data-driven insights to personalize every experience. Our team of expert stylists ensures you're treated like royalty. Fun fact: We incorporate AI-generated design elements in our decor!</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: 123 AI Avenue, Silicon Valley, CA 94000</p>
+        <p>Phone: (555) 123-4567 | Email: info@groksglamsalon.com</p>
+        <h3>Book an Appointment</h3>
+        <form id="bookingForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="date" id="date" required>
+            <textarea id="message" placeholder="Any special requests?"></textarea>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Grok's Glam Salon. All rights reserved.</p>
+    </footer>
+    <script>
+        document.getElementById('bookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for booking! We\'ll confirm via email soon.');
+            // In a real site, you'd send this data to a server.
+        });
+    </script>
+</body>
+</html>
