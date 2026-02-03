@@ -4,7 +4,7 @@ A simple, modern, and responsive salon website built using **HTML & CSS**.
 This project is designed for small businesses like beauty salons to showcase their services and contact details online.
 
 ## 🌐 Live Demo
-👉 https://yourusername.github.io/glam-salon  
+👉 https://sahilsingh-2305.github.io/glam-salon  
 *(Replace with your actual live link)*
 
 ## 📌 Features
